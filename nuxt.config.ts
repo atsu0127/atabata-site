@@ -5,13 +5,6 @@ export default defineNuxtConfig({
   modules: ["@nuxt/content"],
   build: {
     transpile: ["vuetify"],
-    extractCSS: true,
-    optimizeCSS: true,
-    loaders: {
-      css: {
-        exclude: [/\/node_modules\/vuetify\/.*\.css$/],
-      },
-    },
   },
   hooks: {
     "vite:extendConfig": (config: { plugins: any }) => {
@@ -20,7 +13,7 @@ export default defineNuxtConfig({
   },
   vite: {
     ssr: {
-      noExternal: ["vuetify"],
+      noExternal: [/\.css$/, /^vuetify/],
     },
   },
   css: ["@/assets/main.scss", "@/assets/style.css"],
