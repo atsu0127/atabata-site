@@ -2,3 +2,6 @@
 nuxt-contentを使った試験的なサイトです
 
 調べたこととかをまとめます
+
+## デプロイ
+- cloudflare workerにデプロイしています
