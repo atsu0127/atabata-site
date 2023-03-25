@@ -4,5 +4,13 @@ nuxt-contentを使った試験的なサイトです
 調べたこととかをまとめます
 
 ## デプロイ
-- mainブランチにマージするとPagesの方でビルド処理が走って自動的に以下のサイトにデプロイされます
-  - 
+- cloudflare pagesとworkerどっちもにデプロイしています
+### worker
+- github actions経由でのデプロイ
+- 以下のドメインで稼働しています
+  - https://blog.atabata.site/
+
+### pages
+- pagesのgithubとの連携機能でデプロイ
+- 以下のドメインで稼働しています
+  - https://posts.atabata.site/
