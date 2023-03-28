@@ -1,4 +1,6 @@
 # atabata-site
+[![cloudflare](https://github.com/atsu0127/atabata-site/actions/workflows/cloudflare.yaml/badge.svg)](https://github.com/atsu0127/atabata-site/actions/workflows/cloudflare.yaml)
+
 nuxt-contentを使った試験的なサイトです
 
 調べたこととかをまとめます
